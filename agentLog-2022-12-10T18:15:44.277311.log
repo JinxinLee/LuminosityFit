@@ -1,0 +1,632 @@
+INFO:root:Starting Log at 2022-12-10T18:15:44.279656
+
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:04: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:04: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:05: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-10T18:16:05: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-10T18:16:26: Received Order:
+INFO:root:cmd: id

@@ -1,0 +1,8 @@
+INFO:root:Starting Log at 2022-12-13T13:31:13.811544
+
+INFO:root:2022-12-13T13:31:39: Received Order:
+INFO:root:cmd: test
+INFO:root:2022-12-13T13:31:39: Sent back result:
+INFO:root:stdout: ok
+INFO:root:2022-12-14T03:09:04: Received Order:
+INFO:root:cmd: id

@@ -1,0 +1,314 @@
+INFO:root:Starting Log at 2022-12-05T19:18:30.484646
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:30: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:31: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:31: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:32: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:18:33: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:18:33: Received Order:
+INFO:root:cmd: id

@@ -14,4 +14,4 @@ export SINGULARITY_TMPDIR
 mkdir -p $SINGULARITY_TMPDIR
 LMDPATH=${LMDFIT_BUILD_DIR}/..
 
-singularity exec --env-file ${HOME}/LuminosityFit/lmdEnvFile.env ${HOME}/lmdfit-mini.sif bash -c ". \$VMCWORKDIR/build/config.sh -a ; ${1}"
+singularity exec --env-file ${HOME}/LuminosityFit/lmdEnvFile.env ${HOME}/lmdfit.sif bash -c ". \$VMCWORKDIR/build/config.sh -a ; ${1}"

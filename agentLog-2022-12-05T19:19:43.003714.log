@@ -1,0 +1,812 @@
+INFO:root:Starting Log at 2022-12-05T19:19:43.004635
+
+INFO:root:2022-12-05T19:20:19: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:19: Sent back result:
+INFO:root:stdout: 0
+
+INFO:root:2022-12-05T19:20:19: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:19: Sent back result:
+INFO:root:stdout: Submitted batch job 12196035
+
+INFO:root:2022-12-05T19:20:24: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:24: Sent back result:
+INFO:root:stdout: 2
+
+INFO:root:2022-12-05T19:20:24: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:24: Sent back result:
+INFO:root:stdout: Submitted batch job 12196036
+
+INFO:root:2022-12-05T19:20:28: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:28: Sent back result:
+INFO:root:stdout: 4
+
+INFO:root:2022-12-05T19:20:28: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:28: Sent back result:
+INFO:root:stdout: Submitted batch job 12196037
+
+INFO:root:2022-12-05T19:20:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:33: Sent back result:
+INFO:root:stdout: 6
+
+INFO:root:2022-12-05T19:20:33: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:33: Sent back result:
+INFO:root:stdout: Submitted batch job 12196038
+
+INFO:root:2022-12-05T19:20:37: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:37: Sent back result:
+INFO:root:stdout: 8
+
+INFO:root:2022-12-05T19:20:37: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:37: Sent back result:
+INFO:root:stdout: Submitted batch job 12196039
+
+INFO:root:2022-12-05T19:20:41: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:41: Sent back result:
+INFO:root:stdout: 10
+
+INFO:root:2022-12-05T19:20:41: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:41: Sent back result:
+INFO:root:stdout: Submitted batch job 12196041
+
+INFO:root:2022-12-05T19:20:44: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:44: Sent back result:
+INFO:root:stdout: 12
+
+INFO:root:2022-12-05T19:20:44: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:44: Sent back result:
+INFO:root:stdout: Submitted batch job 12196042
+
+INFO:root:2022-12-05T19:20:48: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:48: Sent back result:
+INFO:root:stdout: 14
+
+INFO:root:2022-12-05T19:20:48: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:48: Sent back result:
+INFO:root:stdout: Submitted batch job 12196043
+
+INFO:root:2022-12-05T19:20:52: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:52: Sent back result:
+INFO:root:stdout: 16
+
+INFO:root:2022-12-05T19:20:52: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:52: Sent back result:
+INFO:root:stdout: Submitted batch job 12196044
+
+INFO:root:2022-12-05T19:20:56: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:20:56: Sent back result:
+INFO:root:stdout: 18
+
+INFO:root:2022-12-05T19:20:56: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:20:56: Sent back result:
+INFO:root:stdout: Submitted batch job 12196045
+
+INFO:root:2022-12-05T19:21:00: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:00: Sent back result:
+INFO:root:stdout: 20
+
+INFO:root:2022-12-05T19:21:00: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:00: Sent back result:
+INFO:root:stdout: Submitted batch job 12196046
+
+INFO:root:2022-12-05T19:21:04: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:04: Sent back result:
+INFO:root:stdout: 22
+
+INFO:root:2022-12-05T19:21:04: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:04: Sent back result:
+INFO:root:stdout: Submitted batch job 12196047
+
+INFO:root:2022-12-05T19:21:08: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:08: Sent back result:
+INFO:root:stdout: 24
+
+INFO:root:2022-12-05T19:21:08: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:08: Sent back result:
+INFO:root:stdout: Submitted batch job 12196048
+
+INFO:root:2022-12-05T19:21:11: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:11: Sent back result:
+INFO:root:stdout: 26
+
+INFO:root:2022-12-05T19:21:11: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:11: Sent back result:
+INFO:root:stdout: Submitted batch job 12196049
+
+INFO:root:2022-12-05T19:21:15: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:15: Sent back result:
+INFO:root:stdout: 28
+
+INFO:root:2022-12-05T19:21:15: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:15: Sent back result:
+INFO:root:stdout: Submitted batch job 12196050
+
+INFO:root:2022-12-05T19:21:19: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:19: Sent back result:
+INFO:root:stdout: 30
+
+INFO:root:2022-12-05T19:21:19: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:19: Sent back result:
+INFO:root:stdout: Submitted batch job 12196051
+
+INFO:root:2022-12-05T19:21:23: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:23: Sent back result:
+INFO:root:stdout: 32
+
+INFO:root:2022-12-05T19:21:23: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:23: Sent back result:
+INFO:root:stdout: Submitted batch job 12196052
+
+INFO:root:2022-12-05T19:21:26: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:26: Sent back result:
+INFO:root:stdout: 34
+
+INFO:root:2022-12-05T19:21:26: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:26: Sent back result:
+INFO:root:stdout: Submitted batch job 12196053
+
+INFO:root:2022-12-05T19:21:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:30: Sent back result:
+INFO:root:stdout: 36
+
+INFO:root:2022-12-05T19:21:30: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:30: Sent back result:
+INFO:root:stdout: Submitted batch job 12196054
+
+INFO:root:2022-12-05T19:21:34: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:34: Sent back result:
+INFO:root:stdout: 38
+
+INFO:root:2022-12-05T19:21:34: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:34: Sent back result:
+INFO:root:stdout: Submitted batch job 12196055
+
+INFO:root:2022-12-05T19:21:38: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:38: Sent back result:
+INFO:root:stdout: 40
+
+INFO:root:2022-12-05T19:21:38: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:38: Sent back result:
+INFO:root:stdout: Submitted batch job 12196056
+
+INFO:root:2022-12-05T19:21:41: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:42: Sent back result:
+INFO:root:stdout: 42
+
+INFO:root:2022-12-05T19:21:42: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:42: Sent back result:
+INFO:root:stdout: Submitted batch job 12196057
+
+INFO:root:2022-12-05T19:21:46: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:46: Sent back result:
+INFO:root:stdout: 44
+
+INFO:root:2022-12-05T19:21:46: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:46: Sent back result:
+INFO:root:stdout: Submitted batch job 12196058
+
+INFO:root:2022-12-05T19:21:50: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:50: Sent back result:
+INFO:root:stdout: 46
+
+INFO:root:2022-12-05T19:21:50: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:50: Sent back result:
+INFO:root:stdout: Submitted batch job 12196059
+
+INFO:root:2022-12-05T19:21:53: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:53: Sent back result:
+INFO:root:stdout: 48
+
+INFO:root:2022-12-05T19:21:53: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:53: Sent back result:
+INFO:root:stdout: Submitted batch job 12196060
+
+INFO:root:2022-12-05T19:21:57: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:21:57: Sent back result:
+INFO:root:stdout: 50
+
+INFO:root:2022-12-05T19:21:57: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:21:57: Sent back result:
+INFO:root:stdout: Submitted batch job 12196061
+
+INFO:root:2022-12-05T19:22:01: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:01: Sent back result:
+INFO:root:stdout: 52
+
+INFO:root:2022-12-05T19:22:01: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_-0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:01: Sent back result:
+INFO:root:stdout: Submitted batch job 12196062
+
+INFO:root:2022-12-05T19:22:05: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:05: Sent back result:
+INFO:root:stdout: 54
+
+INFO:root:2022-12-05T19:22:05: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:05: Sent back result:
+INFO:root:stdout: Submitted batch job 12196063
+
+INFO:root:2022-12-05T19:22:08: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:08: Sent back result:
+INFO:root:stdout: 56
+
+INFO:root:2022-12-05T19:22:08: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:08: Sent back result:
+INFO:root:stdout: Submitted batch job 12196064
+
+INFO:root:2022-12-05T19:22:12: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:13: Sent back result:
+INFO:root:stdout: 58
+
+INFO:root:2022-12-05T19:22:13: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:13: Sent back result:
+INFO:root:stdout: Submitted batch job 12196065
+
+INFO:root:2022-12-05T19:22:17: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:17: Sent back result:
+INFO:root:stdout: 60
+
+INFO:root:2022-12-05T19:22:17: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:17: Sent back result:
+INFO:root:stdout: Submitted batch job 12196066
+
+INFO:root:2022-12-05T19:22:21: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:21: Sent back result:
+INFO:root:stdout: 62
+
+INFO:root:2022-12-05T19:22:21: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:21: Sent back result:
+INFO:root:stdout: Submitted batch job 12196067
+
+INFO:root:2022-12-05T19:22:25: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:25: Sent back result:
+INFO:root:stdout: 64
+
+INFO:root:2022-12-05T19:22:25: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:25: Sent back result:
+INFO:root:stdout: Submitted batch job 12196068
+
+INFO:root:2022-12-05T19:22:28: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:28: Sent back result:
+INFO:root:stdout: 66
+
+INFO:root:2022-12-05T19:22:28: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:28: Sent back result:
+INFO:root:stdout: Submitted batch job 12196069
+
+INFO:root:2022-12-05T19:22:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:32: Sent back result:
+INFO:root:stdout: 68
+
+INFO:root:2022-12-05T19:22:32: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:32: Sent back result:
+INFO:root:stdout: Submitted batch job 12196070
+
+INFO:root:2022-12-05T19:22:36: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:36: Sent back result:
+INFO:root:stdout: 70
+
+INFO:root:2022-12-05T19:22:36: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:36: Sent back result:
+INFO:root:stdout: Submitted batch job 12196071
+
+INFO:root:2022-12-05T19:22:39: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:39: Sent back result:
+INFO:root:stdout: 72
+
+INFO:root:2022-12-05T19:22:39: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:39: Sent back result:
+INFO:root:stdout: Submitted batch job 12196072
+
+INFO:root:2022-12-05T19:22:43: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:43: Sent back result:
+INFO:root:stdout: 74
+
+INFO:root:2022-12-05T19:22:43: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:43: Sent back result:
+INFO:root:stdout: Submitted batch job 12196073
+
+INFO:root:2022-12-05T19:22:47: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:47: Sent back result:
+INFO:root:stdout: 76
+
+INFO:root:2022-12-05T19:22:47: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:47: Sent back result:
+INFO:root:stdout: Submitted batch job 12196074
+
+INFO:root:2022-12-05T19:22:51: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:51: Sent back result:
+INFO:root:stdout: 78
+
+INFO:root:2022-12-05T19:22:51: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:51: Sent back result:
+INFO:root:stdout: Submitted batch job 12196075
+
+INFO:root:2022-12-05T19:22:54: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:54: Sent back result:
+INFO:root:stdout: 80
+
+INFO:root:2022-12-05T19:22:54: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:54: Sent back result:
+INFO:root:stdout: Submitted batch job 12196076
+
+INFO:root:2022-12-05T19:22:58: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:22:58: Sent back result:
+INFO:root:stdout: 82
+
+INFO:root:2022-12-05T19:22:58: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:22:58: Sent back result:
+INFO:root:stdout: Submitted batch job 12196077
+
+INFO:root:2022-12-05T19:23:02: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:02: Sent back result:
+INFO:root:stdout: 84
+
+INFO:root:2022-12-05T19:23:02: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:02: Sent back result:
+INFO:root:stdout: Submitted batch job 12196078
+
+INFO:root:2022-12-05T19:23:06: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:06: Sent back result:
+INFO:root:stdout: 86
+
+INFO:root:2022-12-05T19:23:06: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:06: Sent back result:
+INFO:root:stdout: Submitted batch job 12196079
+
+INFO:root:2022-12-05T19:23:09: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:09: Sent back result:
+INFO:root:stdout: 88
+
+INFO:root:2022-12-05T19:23:09: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.7-13.0mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:09: Sent back result:
+INFO:root:stdout: Submitted batch job 12196080
+
+INFO:root:2022-12-05T19:23:13: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:13: Sent back result:
+INFO:root:stdout: 90
+
+INFO:root:2022-12-05T19:23:13: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:13: Sent back result:
+INFO:root:stdout: Submitted batch job 12196081
+
+INFO:root:2022-12-05T19:23:17: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:17: Sent back result:
+INFO:root:stdout: 92
+
+INFO:root:2022-12-05T19:23:17: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:17: Sent back result:
+INFO:root:stdout: Submitted batch job 12196082
+
+INFO:root:2022-12-05T19:23:21: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:21: Sent back result:
+INFO:root:stdout: 94
+
+INFO:root:2022-12-05T19:23:21: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:21: Sent back result:
+INFO:root:stdout: Submitted batch job 12196083
+
+INFO:root:2022-12-05T19:23:25: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:25: Sent back result:
+INFO:root:stdout: 96
+
+INFO:root:2022-12-05T19:23:25: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:25: Sent back result:
+INFO:root:stdout: Submitted batch job 12196084
+
+INFO:root:2022-12-05T19:23:28: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:28: Sent back result:
+INFO:root:stdout: 98
+
+INFO:root:2022-12-05T19:23:28: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:28: Sent back result:
+INFO:root:stdout: Submitted batch job 12196085
+
+INFO:root:2022-12-05T19:23:32: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:32: Sent back result:
+INFO:root:stdout: 100
+
+INFO:root:2022-12-05T19:23:32: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:32: Sent back result:
+INFO:root:stdout: Submitted batch job 12196086
+
+INFO:root:2022-12-05T19:23:36: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:36: Sent back result:
+INFO:root:stdout: 102
+
+INFO:root:2022-12-05T19:23:36: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:36: Sent back result:
+INFO:root:stdout: Submitted batch job 12196087
+
+INFO:root:2022-12-05T19:23:40: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:40: Sent back result:
+INFO:root:stdout: 104
+
+INFO:root:2022-12-05T19:23:40: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:40: Sent back result:
+INFO:root:stdout: Submitted batch job 12196088
+
+INFO:root:2022-12-05T19:23:44: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:44: Sent back result:
+INFO:root:stdout: 106
+
+INFO:root:2022-12-05T19:23:44: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.0_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:44: Sent back result:
+INFO:root:stdout: Submitted batch job 12196089
+
+INFO:root:2022-12-05T19:23:47: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:47: Sent back result:
+INFO:root:stdout: 108
+
+INFO:root:2022-12-05T19:23:47: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:48: Sent back result:
+INFO:root:stdout: Submitted batch job 12196090
+
+INFO:root:2022-12-05T19:23:51: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:51: Sent back result:
+INFO:root:stdout: 110
+
+INFO:root:2022-12-05T19:23:51: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:51: Sent back result:
+INFO:root:stdout: Submitted batch job 12196091
+
+INFO:root:2022-12-05T19:23:55: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:55: Sent back result:
+INFO:root:stdout: 112
+
+INFO:root:2022-12-05T19:23:55: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:55: Sent back result:
+INFO:root:stdout: Submitted batch job 12196092
+
+INFO:root:2022-12-05T19:23:59: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:23:59: Sent back result:
+INFO:root:stdout: 114
+
+INFO:root:2022-12-05T19:23:59: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:23:59: Sent back result:
+INFO:root:stdout: Submitted batch job 12196093
+
+INFO:root:2022-12-05T19:24:02: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:02: Sent back result:
+INFO:root:stdout: 116
+
+INFO:root:2022-12-05T19:24:02: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:02: Sent back result:
+INFO:root:stdout: Submitted batch job 12196094
+
+INFO:root:2022-12-05T19:24:06: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:06: Sent back result:
+INFO:root:stdout: 118
+
+INFO:root:2022-12-05T19:24:06: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:06: Sent back result:
+INFO:root:stdout: Submitted batch job 12196095
+
+INFO:root:2022-12-05T19:24:10: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:10: Sent back result:
+INFO:root:stdout: 120
+
+INFO:root:2022-12-05T19:24:10: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:10: Sent back result:
+INFO:root:stdout: Submitted batch job 12196096
+
+INFO:root:2022-12-05T19:24:14: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:14: Sent back result:
+INFO:root:stdout: 122
+
+INFO:root:2022-12-05T19:24:14: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:14: Sent back result:
+INFO:root:stdout: Submitted batch job 12196097
+
+INFO:root:2022-12-05T19:24:18: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:19: Sent back result:
+INFO:root:stdout: 124
+
+INFO:root:2022-12-05T19:24:19: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_-0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:19: Sent back result:
+INFO:root:stdout: Submitted batch job 12196098
+
+INFO:root:2022-12-05T19:24:22: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:22: Sent back result:
+INFO:root:stdout: 126
+
+INFO:root:2022-12-05T19:24:22: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:22: Sent back result:
+INFO:root:stdout: Submitted batch job 12196099
+
+INFO:root:2022-12-05T19:24:26: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:26: Sent back result:
+INFO:root:stdout: 128
+
+INFO:root:2022-12-05T19:24:26: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:26: Sent back result:
+INFO:root:stdout: Submitted batch job 12196100
+
+INFO:root:2022-12-05T19:24:30: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:30: Sent back result:
+INFO:root:stdout: 130
+
+INFO:root:2022-12-05T19:24:30: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:30: Sent back result:
+INFO:root:stdout: Submitted batch job 12196101
+
+INFO:root:2022-12-05T19:24:33: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:34: Sent back result:
+INFO:root:stdout: 132
+
+INFO:root:2022-12-05T19:24:34: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:34: Sent back result:
+INFO:root:stdout: Submitted batch job 12196102
+
+INFO:root:2022-12-05T19:24:37: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:37: Sent back result:
+INFO:root:stdout: 134
+
+INFO:root:2022-12-05T19:24:37: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:37: Sent back result:
+INFO:root:stdout: Submitted batch job 12196103
+
+INFO:root:2022-12-05T19:24:41: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:41: Sent back result:
+INFO:root:stdout: 136
+
+INFO:root:2022-12-05T19:24:41: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:41: Sent back result:
+INFO:root:stdout: Submitted batch job 12196104
+
+INFO:root:2022-12-05T19:24:45: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:45: Sent back result:
+INFO:root:stdout: 138
+
+INFO:root:2022-12-05T19:24:45: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:45: Sent back result:
+INFO:root:stdout: Submitted batch job 12196105
+
+INFO:root:2022-12-05T19:24:49: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:50: Sent back result:
+INFO:root:stdout: 140
+
+INFO:root:2022-12-05T19:24:50: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:50: Sent back result:
+INFO:root:stdout: Submitted batch job 12196106
+
+INFO:root:2022-12-05T19:24:54: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:54: Sent back result:
+INFO:root:stdout: 142
+
+INFO:root:2022-12-05T19:24:54: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.4000000000000004-13.3mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.0_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:54: Sent back result:
+INFO:root:stdout: Submitted batch job 12196107
+
+INFO:root:2022-12-05T19:24:57: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:24:57: Sent back result:
+INFO:root:stdout: 144
+
+INFO:root:2022-12-05T19:24:57: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:24:57: Sent back result:
+INFO:root:stdout: Submitted batch job 12196108
+
+INFO:root:2022-12-05T19:25:01: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:01: Sent back result:
+INFO:root:stdout: 146
+
+INFO:root:2022-12-05T19:25:01: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:01: Sent back result:
+INFO:root:stdout: Submitted batch job 12196109
+
+INFO:root:2022-12-05T19:25:05: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:05: Sent back result:
+INFO:root:stdout: 148
+
+INFO:root:2022-12-05T19:25:05: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:05: Sent back result:
+INFO:root:stdout: Submitted batch job 12196110
+
+INFO:root:2022-12-05T19:25:09: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:09: Sent back result:
+INFO:root:stdout: 150
+
+INFO:root:2022-12-05T19:25:09: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_-7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:09: Sent back result:
+INFO:root:stdout: Submitted batch job 12196111
+
+INFO:root:2022-12-05T19:25:12: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:12: Sent back result:
+INFO:root:stdout: 152
+
+INFO:root:2022-12-05T19:25:12: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_0.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:13: Sent back result:
+INFO:root:stdout: Submitted batch job 12196112
+
+INFO:root:2022-12-05T19:25:16: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:16: Sent back result:
+INFO:root:stdout: 154
+
+INFO:root:2022-12-05T19:25:16: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_10.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:16: Sent back result:
+INFO:root:stdout: Submitted batch job 12196113
+
+INFO:root:2022-12-05T19:25:20: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:21: Sent back result:
+INFO:root:stdout: 156
+
+INFO:root:2022-12-05T19:25:21: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_2.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:21: Sent back result:
+INFO:root:stdout: Submitted batch job 12196114
+
+INFO:root:2022-12-05T19:25:25: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:25: Sent back result:
+INFO:root:stdout: 158
+
+INFO:root:2022-12-05T19:25:25: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_5.0_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:25: Sent back result:
+INFO:root:stdout: Submitted batch job 12196115
+
+INFO:root:2022-12-05T19:25:29: Received Order:
+INFO:root:cmd: squeue -u $USER -o %C | sed 's/CPUS/0/' | awk '{s+=$1} END {print s}'
+INFO:root:2022-12-05T19:25:29: Sent back result:
+INFO:root:stdout: 160
+
+INFO:root:2022-12-05T19:25:29: Received Order:
+INFO:root:cmd: sbatch -A m2_him_exp -p himster2_exp --constraint=skylake --array=1-100 --job-name=simreco_dpm_elastic -N 1 -n 1 -c 2 --mem-per-cpu=3500mb --time=0-12:00 --output=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction/simreco-%a.log --export=ALL,force_level=0,dirname=plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,path_mc_data=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/mc_data,pathname=/lustre/miifs05/scratch/him-specf/paluma/jinxin/Lmddata/plab_8.90GeV/dpm_elastic_theta_2.2800000000000002-13.42mrad_recoil_corrected/ip_offset_XYZDXDYDZ_0.3_0.3_7.5_0.0_0.0_0.0/beam_grad_XYDXDY_0.0_0.0_0.0_0.0/no_geo_misalignment/100000/1-100_uncut/no_alignment_correction,macropath=/home/lijinxin/PandaRoot/macro/detectors/lmd  /home/lijinxin/LuminosityFit/python/singularityJob.sh /home/lijinxin/LuminosityFit/python/runLmdSimReco.py
+INFO:root:2022-12-05T19:25:29: Sent back result:
+INFO:root:stdout: Submitted batch job 12196116
+
