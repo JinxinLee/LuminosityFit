@@ -47,10 +47,10 @@ namespace PbarPElasticScattering {
 
   double t_min = model_factory.getMomentumTransferFromTheta(
       momentum, theta_min_in_mrad / 1000.0);
-  double t_max = model_factory.getMomentumTransferFromTheta(
-      momentum, theta_max_in_mrad / 1000.0);
+  //double t_max = model_factory.getMomentumTransferFromTheta(
+  //    momentum, theta_max_in_mrad / 1000.0);
 
-  //double t_max = 15.0331;
+  double t_max = 15.0331;
 
   TDatabasePDG *pdg = TDatabasePDG::Instance();
   double mass_proton = pdg->GetParticle(2212)->Mass();
@@ -75,8 +75,8 @@ namespace PbarPElasticScattering {
   DataStructs::DimensionRange dr(t_min, t_max);
   integral_ranges.push_back(dr);
 
-  double integral = correct_model->Integral(integral_ranges, 1e-5);
-  //double integral = correct_model->Integral(integral_ranges, 0.25);
+  //double integral = correct_model->Integral(integral_ranges, 1e-5);
+  double integral = correct_model->Integral(integral_ranges, 0.25);
   //integral *= (phi_max-phi_min)/2*pi;
   std::cout << mass_proton << "Integrated total elastic cross section in theta range ["
             << theta_min_in_mrad << " - " << theta_max_in_mrad << "] -> t ["

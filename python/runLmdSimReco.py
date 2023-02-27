@@ -120,20 +120,23 @@ if (
         os.system(
             f"""root -l -b -q 'runLumiPixel0SimBox.C({sim_params.num_events_per_sample}, {start_evt}, "{workpathname}",{verbositylvl},-2212,{sim_params.lab_momentum},{numTrks},{sim_params.random_seed + start_evt}, 0, , "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0})' > /dev/null 2>&1"""
         )
-    #else:
+#    else:
+#        print(f"shit!")
+#        os.system(
+#            f"""root -l -b -q 'runLumiPixel0SimDPM.C({sim_params.num_events_per_sample}, {start_evt}, {sim_params.lab_momentum}, "{gen_filepath}", "{workpathname}", {sim_params.ip_offset_x}, {sim_params.ip_offset_y}, {sim_params.ip_offset_z}, {sim_params.ip_spread_x}, {sim_params.ip_spread_y}, 1, {sim_params.ip_spread_z}, {sim_params.beam_tilt_x}, {sim_params.beam_tilt_y}, {sim_params.beam_divergence_x}, {sim_params.beam_divergence_y}, "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0}, {verbositylvl})'"""
+#        )
     elif (
         sim_params.sim_type == SimulationType.PBARP_ELASTIC
         or sim_params.sim_type == SimulationType.RESACCPBARP_ELASTIC
     ):
-        os.system(
-            f"""root -l -b -q 'runLumiPixel0SimDPM.C({sim_params.num_events_per_sample}, {start_evt}, {sim_params.lab_momentum}, "{gen_filepath}", "{workpathname}", {sim_params.ip_offset_x}, {sim_params.ip_offset_y}, {sim_params.ip_offset_z}, {sim_params.ip_spread_x}, {sim_params.ip_spread_y}, 1, {sim_params.ip_spread_z}, {sim_params.beam_tilt_x}, {sim_params.beam_tilt_y}, {sim_params.beam_divergence_x}, {sim_params.beam_divergence_y}, "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0}, {verbositylvl})'"""
-        )
+        os.system(f"""root -l -b -q 'runLumiPixel0SimDPM.C({sim_params.num_events_per_sample}, {start_evt}, {sim_params.lab_momentum}, "{gen_filepath}", "{workpathname}", {sim_params.ip_offset_x}, {sim_params.ip_offset_y}, {sim_params.ip_offset_z}, {sim_params.ip_spread_x}, {sim_params.ip_spread_y}, 1, {sim_params.ip_spread_z}, {sim_params.beam_tilt_x}, {sim_params.beam_tilt_y}, {sim_params.beam_divergence_x}, {sim_params.beam_divergence_y}, "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0}, {verbositylvl})'""")
+       
     elif (
         sim_params.sim_type == SimulationType.BOX
         or sim_params.sim_type == SimulationType.RESACCBOX
     ):
         os.system(
-            f"""root -l -b -q 'runLumiPixel0SimBox.C({sim_params.num_events_per_sample}, {start_evt}, "{workpathname}",{verbositylvl},-2212,{sim_params.lab_momentum},{sim_params.ip_offset_x}, {sim_params.ip_offset_y}, {sim_params.ip_offset_z}, {sim_params.ip_spread_x}, {sim_params.ip_spread_y}, 1, {sim_params.ip_spread_z}, {sim_params.beam_tilt_x}, {sim_params. beam_tilt_y}, {sim_params.beam_divergence_x}, {sim_params.beam_divergence_y}, {numTrks},{sim_params.random_seed + start_evt}, 0, , "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0})' > /dev/null 2>&1"""
+            f"""root -l -b -q 'runLumiPixel0SimBox.C({sim_params.num_events_per_sample}, {start_evt}, "{workpathname}",{verbositylvl},-2212,{sim_params.lab_momentum},{sim_params.ip_offset_x}, {sim_params.ip_offset_y}, {sim_params.ip_offset_z}, {sim_params.ip_spread_x}, {sim_params.ip_spread_y}, 1, {sim_params.ip_spread_z}, {sim_params.beam_tilt_x}, {sim_params.beam_tilt_y}, {sim_params.beam_divergence_x}, {sim_params.beam_divergence_y}, {numTrks},{sim_params.random_seed + start_evt}, 0, "{sim_params.lmd_geometry_filename}", "{ali_params.misalignment_matrices_path}", {1 if ali_params.use_point_transform_misalignment else 0})'"""
         )
 
 # if first stage was successful, copy MC data directly to compute node and don't generate new

@@ -36,7 +36,7 @@ def genExperimentConfig(
 
     simpars.lab_momentum = momentum
     simpars.num_samples = 100
-    simpars.num_events_per_sample = 100000
+    simpars.num_events_per_sample = 10000
     simpars.theta_min_in_mrad = theta_min
     simpars.theta_max_in_mrad = theta_max
     simpars.phi_min_in_rad = phi_min
@@ -44,9 +44,9 @@ def genExperimentConfig(
 
     recopars.lab_momentum = momentum
     recopars.num_samples = 100
-    recopars.num_events_per_sample = 100000
+    recopars.num_events_per_sample = 10000
     recopars.num_box_samples = 500
-    recopars.num_events_per_box_sample = 100000
+    recopars.num_events_per_box_sample = 10000
     recopars.sim_type_for_resAcc = sim_type_for_resAcc
 
     lmdfit_data_dir = os.getenv("LMDFIT_DATA_DIR")
@@ -83,8 +83,8 @@ confPathKoala.mkdir(parents=True, exist_ok=True)
 
 
 theta_min = (2.7, 4.8)
-theta_max = (13.0, 20.0)
-#theta_max = (6283.18531718, 20.0)
+#theta_max = (13.0, 20.0)
+theta_max = (6283.18531718, 20.0)
 phi_min = (0.0, 0.0)
 phi_max = (6.28318531718, 6.28318531718)
 
