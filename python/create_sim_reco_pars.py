@@ -83,8 +83,7 @@ confPathKoala.mkdir(parents=True, exist_ok=True)
 
 
 theta_min = (2.7, 4.8)
-#theta_max = (13.0, 20.0)
-theta_max = (6283.18531718, 20.0)
+theta_max = (13.0, 20.0)
 phi_min = (0.0, 0.0)
 phi_max = (6.28318531718, 6.28318531718)
 
